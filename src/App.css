@@ -1,0 +1,116 @@
+:root {
+  --color-primary: #e27d60;
+  --color-tertiary: #e8a87c;
+  --color-quaternary: #c38d9e;
+  --color-quinary: #41b3a3;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.Appdiv {
+  background-color: #41b3a3;
+  font-family: "Pangolin", cursive;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  margin-right: 80px;
+  align-items: center;
+}
+
+.title {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  background-color: white;
+  transform: rotate(-5deg);
+  border-radius: 20px;
+  color: var(--color-quinary);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-left: 20px;
+}
+.title:hover {
+  color: var(--color-primary);
+}
+
+.todoitem {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-inline: 30px;
+  padding-block: 10px;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+  margin-inline: 70px;
+}
+
+.todo-content {
+  display: flex;
+  align-items: center;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-text {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #e27d60;
+  font-weight: bold;
+  font-family: "Pangolin", cursive;
+}
+
+.labelDiv {
+  position: absolute;
+  left: -2px;
+  cursor: pointer;
+}
+.author {
+  position:fixed;
+  bottom: 10px;
+  right: 5px;
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .title {
+    padding: 20px;
+    width: 140px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .todoitem {
+    margin-inline: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .title {
+    display: none;
+  }
+  nav {
+    flex-direction: row;
+    margin-right: unset;
+  }
+  .container {
+    justify-content: space-around;
+  }
+}

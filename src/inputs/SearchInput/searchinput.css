@@ -1,0 +1,44 @@
+.searchDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.searchInput {
+  border: none;
+  padding-block: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.searchBtn {
+  padding-block: 27.5px;
+  padding-right: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url(/src/inputs/SearchInput/search.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 30px;
+  background-color: unset;
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+  box-shadow: unset;
+  cursor: unset;
+}
+.searchBtn:hover {
+  box-shadow: unset;
+  background-color: white;
+}
+.editedicon {
+  width: 30px;
+  cursor: pointer;
+}
+
+img {
+  width: 40px;
+  cursor: pointer;
+}
