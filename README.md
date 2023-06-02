@@ -9,7 +9,7 @@
 
  ## Demo
 
-You can try out the live demo of the ToDo App [here]([https://your-demo-url.com](https://mini-easy-react-todoapp.netlify.app/)).
+You can try out the live demo of the ToDo App [here](https://mini-easy-react-todoapp.netlify.app/).
 
 
 ## Description
