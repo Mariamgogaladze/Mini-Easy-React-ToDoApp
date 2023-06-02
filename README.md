@@ -7,10 +7,9 @@
 
 # ToDo App
 
+ ## Demo
 
-## Demo
-
-here : 
+You can try out the live demo of the ToDo App [here]([https://your-demo-url.com](https://mini-easy-react-todoapp.netlify.app/)).
 
 
 ## Description
@@ -25,9 +24,6 @@ The ToDo App is a simple and intuitive task management application. It allows yo
 - View a summary of tasks (total tasks, completed tasks, pending tasks)
 - Responsive design for optimal viewing on different devices
 
-## Demo
-
-You can try out the live demo of the ToDo App [here](https://your-demo-url.com).
 
 ## Installation
 
